@@ -105,7 +105,7 @@ const config: Config = {
         },
         { to: '/blog', label: '更新日志', position: 'left' },
         {
-          href: 'https://github.com/duudubird/thinking-classroom',
+          href: 'https://dudubird-teaching.github.io/thinking-classroom/',
           label: 'GitHub',
           position: 'right',
         },
