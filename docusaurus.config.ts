@@ -34,7 +34,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
           editUrl: undefined,
         },
         blog: {
