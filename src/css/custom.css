@@ -1,0 +1,87 @@
+/**
+ * 嘟嘟鸟思维课堂 — 全局自定义样式
+ * 暖色调学术风格配色
+ */
+
+/* -- 暖色调学术配色 -- */
+:root {
+  --ifm-color-primary: #b85c38;
+  --ifm-color-primary-dark: #a65332;
+  --ifm-color-primary-darker: #9d4e2f;
+  --ifm-color-primary-darkest: #814027;
+  --ifm-color-primary-light: #c46a48;
+  --ifm-color-primary-lighter: #c97252;
+  --ifm-color-primary-lightest: #d48a6f;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* 正文字体优化 */
+  --ifm-font-family-base: 'Noto Serif SC', 'Source Han Serif SC', 'STSong',
+    'Songti SC', 'SimSun', 'Noto Sans SC', 'Microsoft YaHei', serif;
+  --ifm-heading-font-family: 'Noto Sans SC', 'Source Han Sans SC', 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Cascadia Code',
+    'Consolas', monospace;
+
+  --ifm-heading-font-weight: 700;
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+}
+
+/* -- 暗色模式 -- */
+[data-theme='dark'] {
+  --ifm-color-primary: #e8a87c;
+  --ifm-color-primary-dark: #e39660;
+  --ifm-color-primary-darker: #e08c52;
+  --ifm-color-primary-darkest: #d07031;
+  --ifm-color-primary-light: #edba98;
+  --ifm-color-primary-lighter: #f0c4a6;
+  --ifm-color-primary-lightest: #f7dfcf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* -- KaTeX 公式样式微调 -- */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+}
+
+.katex {
+  font-size: 1.1em;
+}
+
+/* -- 主页 Hero 区域增强 -- */
+.hero--primary {
+  background: linear-gradient(135deg, #b85c38 0%, #d4a574 50%, #f5e6d3 100%);
+}
+
+[data-theme='dark'] .hero--primary {
+  background: linear-gradient(135deg, #3e2723 0%, #5d4037 50%, #4e342e 100%);
+}
+
+/* -- 文章可读性增强 -- */
+article {
+  line-height: 1.85;
+}
+
+article p {
+  margin-bottom: 1.2em;
+}
+
+/* -- 代码块增强 -- */
+pre code {
+  font-family: var(--ifm-font-family-monospace);
+}
+
+/* -- 响应式公式 -- */
+@media screen and (max-width: 768px) {
+  .katex {
+    font-size: 0.95em;
+  }
+
+  .katex-display > .katex {
+    font-size: 1em;
+  }
+}
