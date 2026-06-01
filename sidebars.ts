@@ -124,7 +124,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '数学游戏',
       items: [
-        'games/math/24-game',
+        'games/math/game',
         'games/math/sequence-reasoning',
       ],
     },
