@@ -13,10 +13,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://duudubird-think.vercel.app',
-  baseUrl: '/',
+  url: 'https://dudu-bird.github.io',
+  baseUrl: '/thinking-classroom/',
 
-  organizationName: 'duudubird',
+  organizationName: 'dudu-bird',
   projectName: 'thinking-classroom',
 
   onBrokenLinks: 'warn',
