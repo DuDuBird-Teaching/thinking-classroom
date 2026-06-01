@@ -13,7 +13,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://duudubird.example.com',
+  url: 'https://duudubird-think.vercel.app',
   baseUrl: '/',
 
   organizationName: 'duudubird',
