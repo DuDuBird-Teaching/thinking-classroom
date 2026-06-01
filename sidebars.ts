@@ -32,6 +32,11 @@ const sidebars: SidebarsConfig = {
       label: '数学趣题',
       items: ['math/puzzles/monty-hall'],
     },
+    {
+      type: 'category',
+      label: '数论探秘',
+      items: ['math/number-theory/perfect-numbers'],
+    },
   ],
 
   // 物理侧边栏
