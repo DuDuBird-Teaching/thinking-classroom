@@ -1,0 +1,351 @@
+/* 游戏组件共享样式 */
+
+.gameContainer {
+  background: var(--ifm-color-emphasis-0);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='dark'] .gameContainer {
+  background: var(--ifm-color-emphasis-100);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gameTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.gameBoard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.gameNumber {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.gameNumber:hover {
+  transform: scale(1.1);
+}
+
+.gameInput {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.65rem 1rem;
+  font-size: 1.1rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  font-family: var(--ifm-font-family-monospace);
+  background: var(--ifm-color-emphasis-0);
+  color: var(--ifm-font-color-base);
+  transition: border-color 0.2s;
+}
+
+.gameInput:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.gameButton {
+  padding: 0.65rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: var(--ifm-color-primary);
+  color: white;
+}
+
+.gameButton:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.gameButton:active {
+  transform: translateY(0);
+}
+
+.gameButtonSecondary {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+}
+
+.gameButtonSecondary:hover {
+  background: var(--ifm-color-emphasis-300);
+}
+
+.gameFeedback {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.gameFeedbackSuccess {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+[data-theme='dark'] .gameFeedbackSuccess {
+  background: #1b5e20;
+  color: #a5d6a7;
+}
+
+.gameFeedbackError {
+  background: #fbe9e7;
+  color: #c62828;
+}
+
+[data-theme='dark'] .gameFeedbackError {
+  background: #b71c1c;
+  color: #ef9a9a;
+}
+
+.gameFeedbackInfo {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+[data-theme='dark'] .gameFeedbackInfo {
+  background: #0d47a1;
+  color: #90caf9;
+}
+
+.gameScore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.gameScoreValue {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  font-size: 1.2rem;
+}
+
+.gameRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+/* 河内塔 */
+.hanoiContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  min-height: 200px;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.hanoiPeg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  max-width: 140px;
+}
+
+.hanoiPegLabel {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary);
+}
+
+.hanoiPegStick {
+  width: 8px;
+  min-height: 120px;
+  background: var(--ifm-color-emphasis-400);
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 0 0 4px 0;
+}
+
+.hanoiDisk {
+  height: 20px;
+  border-radius: 10px;
+  margin: 1px 0;
+  transition: all 0.3s ease;
+}
+
+/* Nim 游戏 */
+.nimHeap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  min-width: 100px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nimHeap:hover {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.nimHeapSelected {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+}
+
+.nimStone {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  margin: 1px;
+}
+
+/* 囚徒困境 */
+.pdMatrix {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 2px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.pdCell {
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+}
+
+.pdCellHeader {
+  background: var(--ifm-color-emphasis-200);
+  font-size: 0.85rem;
+}
+
+.pdCellValue {
+  background: var(--ifm-color-emphasis-100);
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.pdChoice {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* 数独 */
+.sudokuGrid {
+  display: inline-grid;
+  grid-template-columns: repeat(9, 40px);
+  grid-template-rows: repeat(9, 40px);
+  gap: 1px;
+  background: var(--ifm-color-emphasis-400);
+  border: 2px solid var(--ifm-color-emphasis-600);
+  margin: 1rem auto;
+}
+
+.sudokuCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: var(--ifm-color-emphasis-0);
+  cursor: pointer;
+  transition: background 0.15s;
+  border: none;
+  color: var(--ifm-font-color-base);
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.sudokuCell:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.sudokuCellGiven {
+  color: var(--ifm-font-color-base);
+  font-weight: 700;
+}
+
+.sudokuCellUser {
+  color: var(--ifm-color-primary);
+}
+
+.sudokuCellSelected {
+  background: var(--ifm-color-primary-lightest);
+}
+
+.sudokuCellError {
+  color: #c62828;
+  background: #fbe9e7;
+}
+
+/* 粗边框分隔 3x3 宫 */
+.sudokuGrid .sudokuCell:nth-child(3n) {
+  border-right: 2px solid var(--ifm-color-emphasis-600);
+}
+
+.sudokuGrid .sudokuCell:nth-child(9n) {
+  border-right: none;
+}
+
+/* 响应式 */
+@media screen and (max-width: 768px) {
+  .gameContainer {
+    padding: 1rem;
+  }
+
+  .gameNumber {
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+  }
+
+  .sudokuGrid {
+    grid-template-columns: repeat(9, 32px);
+    grid-template-rows: repeat(9, 32px);
+  }
+
+  .sudokuCell {
+    font-size: 0.9rem;
+  }
+
+  .hanoiPegStick {
+    min-height: 80px;
+  }
+
+  .hanoiDisk {
+    height: 14px;
+  }
+}
