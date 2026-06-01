@@ -13,10 +13,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://dudu-bird.github.io',
+  url: 'https://dudubird-teaching.github.io',
   baseUrl: '/thinking-classroom/',
 
-  organizationName: 'dudu-bird',
+  organizationName: 'DuDuBird-Teaching',
   projectName: 'thinking-classroom',
 
   onBrokenLinks: 'warn',
