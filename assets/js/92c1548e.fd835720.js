@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkduudubird_thinking_classroom=self.webpackChunkduudubird_thinking_classroom||[]).push([["241"],{9715(s){s.exports=JSON.parse('{"tags":[{"label":"\u516C\u544A","permalink":"/thinking-classroom/blog/tags/\u516C\u544A","count":1}]}')}}]);

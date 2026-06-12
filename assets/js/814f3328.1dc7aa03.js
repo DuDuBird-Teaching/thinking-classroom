@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkduudubird_thinking_classroom=self.webpackChunkduudubird_thinking_classroom||[]).push([["1833"],{5513(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u561F\u561F\u9E1F\u601D\u7EF4\u8BFE\u5802\u4E0A\u7EBF\u4E86\uFF01","permalink":"/thinking-classroom/blog/hello-world","unlisted":false,"date":"2026-06-01T00:00:00.000Z"}]}')}}]);

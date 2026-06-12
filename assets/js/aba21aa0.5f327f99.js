@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkduudubird_thinking_classroom=self.webpackChunkduudubird_thinking_classroom||[]).push([["3747"],{7093(u){u.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

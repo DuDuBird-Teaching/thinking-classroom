@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://dudubird-teaching.github.io/thinking-classroom/blog</id>
+    <title>嘟嘟鸟思维课堂 Blog</title>
+    <updated>2026-06-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://dudubird-teaching.github.io/thinking-classroom/blog"/>
+    <subtitle>嘟嘟鸟思维课堂 Blog</subtitle>
+    <icon>https://dudubird-teaching.github.io/thinking-classroom/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[嘟嘟鸟思维课堂上线了！]]></title>
+        <id>https://dudubird-teaching.github.io/thinking-classroom/blog/hello-world</id>
+        <link href="https://dudubird-teaching.github.io/thinking-classroom/blog/hello-world"/>
+        <updated>2026-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[经过一段时间的筹备，嘟嘟鸟思维课堂今天正式上线了！]]></summary>
+        <content type="html"><![CDATA[<p>经过一段时间的筹备，<strong>嘟嘟鸟思维课堂</strong>今天正式上线了！</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="这个网站是做什么的">这个网站是做什么的？<a href="https://dudubird-teaching.github.io/thinking-classroom/blog/hello-world#%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84" class="hash-link" aria-label="这个网站是做什么的？的直接链接" title="这个网站是做什么的？的直接链接" translate="no">​</a></h2>
+<p>我们致力于传播数学、物理、计算机科学的思维方法。不同于传统的教科书，我们注重的是：</p>
+<ul>
+<li class=""><strong>直观理解</strong>：公式背后的思想比公式本身更重要</li>
+<li class=""><strong>思维训练</strong>：通过游戏和互动来锻炼大脑</li>
+<li class=""><strong>跨学科连接</strong>：数学、物理、计算思维本质上是相通的</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="当前内容">当前内容<a href="https://dudubird-teaching.github.io/thinking-classroom/blog/hello-world#%E5%BD%93%E5%89%8D%E5%86%85%E5%AE%B9" class="hash-link" aria-label="当前内容的直接链接" title="当前内容的直接链接" translate="no">​</a></h2>
+<p>第一阶段已经上线的模块包括：</p>
+<ul>
+<li class="">📐 <strong>数学</strong>：逻辑与证明、线性代数、微积分、概率统计</li>
+<li class="">⚛️ <strong>物理</strong>：经典力学、电磁学、现代物理、物理思维方法</li>
+<li class="">💻 <strong>计算机</strong>：计算思维、算法、AI、编程思想</li>
+<li class="">🧩 <strong>思维游戏</strong>：逻辑谜题、数学游戏、策略博弈</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="后续计划">后续计划<a href="https://dudubird-teaching.github.io/thinking-classroom/blog/hello-world#%E5%90%8E%E7%BB%AD%E8%AE%A1%E5%88%92" class="hash-link" aria-label="后续计划的直接链接" title="后续计划的直接链接" translate="no">​</a></h2>
+<p>接下来的几周内，我们会逐步推出：</p>
+<ol>
+<li class="">交互式的算法可视化组件</li>
+<li class="">物理模拟（双摆、波的干涉等）</li>
+<li class="">更多思维游戏（数独、河内塔等）</li>
+<li class="">每篇文章的深度扩展内容</li>
+</ol>
+<p>敬请期待！🚀</p>
+<hr>
+<blockquote>
+<p>如果你有任何建议或想讨论的内容，欢迎通过 GitHub 与我联系。</p>
+</blockquote>]]></content>
+        <author>
+            <name>嘟嘟鸟</name>
+            <uri>https://github.com/duudubird</uri>
+        </author>
+        <category label="公告" term="公告"/>
+    </entry>
+</feed>

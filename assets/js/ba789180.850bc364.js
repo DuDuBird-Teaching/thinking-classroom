@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkduudubird_thinking_classroom=self.webpackChunkduudubird_thinking_classroom||[]).push([["6948"],{9451(o){o.exports=JSON.parse('{"metadata":{"permalink":"/thinking-classroom/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

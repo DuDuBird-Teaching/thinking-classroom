@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkduudubird_thinking_classroom=self.webpackChunkduudubird_thinking_classroom||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/thinking-classroom/blog","blogTitle":"Blog","authorsListPath":"/thinking-classroom/blog/authors"}')}}]);
