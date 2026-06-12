@@ -66,6 +66,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'physics/modern/special-relativity',
         'physics/modern/quantum-mechanics',
+        'physics/modern/altermagnetism',
       ],
     },
     {

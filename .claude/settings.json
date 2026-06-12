@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m '✨ 新增「第三类磁性：交变磁体」前沿物理科普文章 *)",
+      "Bash(GIT_USER=DuDuBird-Teaching npm run deploy)"
+    ]
+  }
+}
